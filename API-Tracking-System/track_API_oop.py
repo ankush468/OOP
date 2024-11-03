@@ -32,3 +32,8 @@ class ISS():
         response.raise_for_status()
         data = response.json()
 
+        sunrise = int(data['results']['sunrise'].split("T")[1].split(":")[0])
+        sunset = int(data['results']['sunset'].split("T")[1].split(":")[0])
+
+        return sunrise, sunset
+
