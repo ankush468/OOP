@@ -3,6 +3,8 @@ import os
 from datetime import datetime, timedelta, date
 from pprint import pprint
 
-NUTRITIONIX_API_KEY = os.getenv('NUTRITIONIX_API_KEY')
-NUTRITIONIX_API_ID = os.getenv('NUTRITIONIX_API_ID')
+AMADEUS_API_KEY = os.getenv('AMADEUS_API_KEY')
+AMADEUS_API_SECRET = os.getenv('AMADEUS_API_SECRET')
 BASE_URL = 'https://trackapi.nutritionix.com'
+
+print(AMADEUS_API_KEY,AMADEUS_API_SECRET)
