@@ -25,9 +25,9 @@ headers = {
     "Content-Type": "application/x-www-form-urlencoded"
 }
 
-# get_token = Auth(token_endpoint,headers,payload)
-# TOKEN = get_token.Get_token()
-# print(TOKEN)
+get_token = Auth(token_endpoint,headers,payload)
+TOKEN = get_token.Get_token()
+print(TOKEN)
 
 ################################ GET Data from sheety ################################ 
 
@@ -63,4 +63,21 @@ sheet_data = {'prices': [{'city': 'Paris', 'iataCode': '', 'id': 2, 'lowestPrice
 
 for city in sheet_data['prices']:
     print(city['city'])
+
+    pram = {
+        'keyword':city['city']
+    }
+
+    headers = {
+        'Authorization': 'Bearer'+' '+TOKEN
+    }
+
+    cities_endpoint = f'{BASE_URL}/reference-data/locations/cities'
+
+    print(pram)
+
+    get_iana_code = Flight(cities_endpoint, headers, pram)
+    iana_code = get_iana_code.Get_IATA_code()
+    pprint(iana_code)
+    break
 
