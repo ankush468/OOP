@@ -10,9 +10,9 @@ BASE_URL = 'https://pixe.la'
 
 ############################ create user account return a dict ############################ 
 
-user_creation_endpoint = '/v1/users'
+BASE_URL = '/v1/users'
 
-user_creation_url = f'{BASE_URL}{user_creation_endpoint}'
+user_creation_url = f'{BASE_URL}{BASE_URL}'
 
 print(user_creation_url)
 
