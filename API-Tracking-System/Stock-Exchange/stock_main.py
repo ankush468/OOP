@@ -1,7 +1,7 @@
 import os
 from stock_oop import Stock
 from news_oop import News
-from pprint import pprint as print
+# from pprint import pprint as print
 from datetime import datetime, timedelta, date
 
 STOCK_NAME = "TSLA"
@@ -14,24 +14,24 @@ STOCK_API_KEY = os.getenv('STOCK_API_KEY')
 NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 
 ############################## PRAM for STOCK #######################################
-# PRAM_STOCK = {
-#        'function' : "TIME_SERIES_DAILY",
-#        'symbol' : STOCK_NAME,    
-#        'apikey' : STOCK_API_KEY
-#        }
+PRAM_STOCK = {
+       'function' : "TIME_SERIES_DAILY",
+       'symbol' : STOCK_NAME,    
+       'apikey' : STOCK_API_KEY
+       }
 
 
 yesterday = (date.today() - timedelta(days=2)).isoformat()
 day_before_yesterday = (date.today() - timedelta(days=4)).isoformat()
 
-# # Get stock price from API return string of tuple
-# get_stock_price = Stock(STOCK_ENDPOINT,PRAM_STOCK,yesterday,day_before_yesterday)
-# Stock_price = get_stock_price.Stock_price()
+# Get stock price from API return string of tuple
+get_stock_price = Stock(STOCK_ENDPOINT,PRAM_STOCK,yesterday,day_before_yesterday)
+Stock_price = get_stock_price.Stock_price()
 
-# # check the percentage diff between 2 days return float
-# diff_percentage = get_stock_price.percentage_difference(Stock_price)
-# print(diff_percentage)
-diff_percentage =5
+# check the percentage diff between 2 days return float
+diff_percentage = get_stock_price.percentage_difference(Stock_price)
+print(diff_percentage)
+
 ############################## PRAM for NEWS #######################################
 
 NEWS_HEADER = {
@@ -49,4 +49,13 @@ if diff_percentage > 2:
     get_news = News(NEWS_ENDPOINT,NEWS_HEADER,PRAM_NEWS)
     news = get_news.get_news_api()
     print(news)
+
+top_3_titles = []
+
+for title in news:
+    
+    top_3_titles.append(title['title'])
+
+
+print(f'here are top 3 title from news {top_3_titles}')
 
