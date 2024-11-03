@@ -1,7 +1,7 @@
 from requests import request
 class Stock():
 
-    def __init__(self , STOCK_ENDPOINT : str,PRAM:dict, yesterday,day_before_yesterday) -> tuple:
+    def __init__(self , STOCK_ENDPOINT : str,PRAM:dict, yesterday:str,day_before_yesterday:str) -> tuple:
 
         self.STOCK_ENDPOINT = STOCK_ENDPOINT
         self.PRAM = PRAM
