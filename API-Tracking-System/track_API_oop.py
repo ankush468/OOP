@@ -17,11 +17,18 @@ class ISS():
         iss_latitude = float(self.data["iss_position"]["latitude"])
         iss_longitude = float(self.data["iss_position"]["latitude"])
 
-        if self.MY_LAT-5 <= iss_latitude <= self.MY_LAT+5 and self.MY_LONG-5 <= iss_latitude <= self.MY_LONG+5:
+        if self.MY_LAT-5 <= iss_latitude <= self.MY_LAT+5 and self.MY_LONG-5 <= iss_longitude <= self.MY_LONG+5:
             return True
         
         else:
             return False
 
-    def is_night(self):
-        pass
+    def is_night(self,Day_Track_API,PARAMETERS):
+
+        self.PARAMETERS = PARAMETERS
+        self.Day_Track_API = Day_Track_API
+
+        response = request(method="GET",url=self.Day_Track_API, params=self.PARAMETERS)
+        response.raise_for_status()
+        data = response.json()
+

@@ -8,8 +8,17 @@ MY_LONG = 78.962883 # Your longitude
 
 ISS_API = "http://api.open-notify.org/iss-now.json"
 Day_Track_API = "https://api.sunrise-sunset.org/json"
+PARAMETERS = {
+        "lat": MY_LAT,
+        "lng": MY_LONG,
+        "formatted": 0,
+}
 
 while True:
+
     Track_ISS_Data = ISS(ISS_API,MY_LAT,MY_LONG)
     ISS_position = Track_ISS_Data.is_iss_overhead()
     print(ISS_position)
+
+    Check_if_night = Track_ISS_Data.is_night(Day_Track_API,PARAMETERS)
+    print(Check_if_night)
