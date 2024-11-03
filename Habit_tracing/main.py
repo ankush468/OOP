@@ -1,12 +1,14 @@
 from requests import request
 from habit_track_oop import Habit_tracking
 import os
+from datetime import datetime, timedelta, date
 
 HABIT_USER_NAME = os.getenv('HABIT_UNAME')
 HABIT_TRACK_TOKEN = os.getenv('NEWS_API_KEY')
 BASE_URL = 'https://pixe.la'
 
-print(HABIT_USER_NAME)
+
+print(type(datetime.now().strftime("%Y%m%d")))
 
 
 
@@ -61,7 +63,7 @@ get_graph_endpoint = f'{BASE_URL}{graph_creation_endpoint}'
 print(get_graph_endpoint)
 
 
-# get_graph = create_user.Get_graph(get_graph_endpoint, header_for_all)
+# get_graph = create_user.Get_graph(get_graph_endpoint)
 # print(get_graph)
 
 
@@ -70,6 +72,11 @@ print(get_graph_endpoint)
 
 post_pixel_endpoint = f'{BASE_URL}{graph_creation_endpoint}/{graph_creation_payload['id']}'
 
-create_pixel = create_user
+post_pixel_data = {
+    'date' : datetime.now().strftime("%Y%m%d"),
+    'quantity' : '9.5',
+}
 
-print(post_pixel_endpoint)
+create_pixel = create_user.Create_pixel(post_pixel_endpoint,post_pixel_data)
+
+print(create_pixel)
