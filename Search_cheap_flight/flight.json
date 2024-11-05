@@ -1,0 +1,2222 @@
+{
+    "meta": {
+        "count": 19,
+        "links": {
+            "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=LON&destinationLocationCode=PAR&departureDate=2024-11-07&adults=1&nonStop=true"
+        }
+    },
+    "data": [
+        {
+            "type": "flight-offer",
+            "id": "1",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-11-07T14:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "2E",
+                                "at": "2024-11-07T17:05:00"
+                            },
+                            "carrierCode": "AF",
+                            "number": "1781",
+                            "aircraft": {
+                                "code": "223"
+                            },
+                            "operating": {
+                                "carrierCode": "AF"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "11",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "129.97",
+                "base": "64.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "129.97",
+                "additionalServices": [
+                    {
+                        "amount": "35.00",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false
+            },
+            "validatingAirlineCodes": [
+                "AF"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "129.97",
+                        "base": "64.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "11",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "TYS0BALA",
+                            "brandedFare": "LIGHT",
+                            "brandedFareLabel": "ECONOMY LIGHT",
+                            "class": "T",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            },
+                            "amenities": [
+                                {
+                                    "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SNACK",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BEVERAGE",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHOICE OF STANDARD SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MILEAGE ACCRUAL",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE ELIGIBILITY",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "2",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-11-07T17:35:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "2E",
+                                "at": "2024-11-07T19:55:00"
+                            },
+                            "carrierCode": "AF",
+                            "number": "1281",
+                            "aircraft": {
+                                "code": "223"
+                            },
+                            "operating": {
+                                "carrierCode": "AF"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "12",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "129.97",
+                "base": "64.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "129.97",
+                "additionalServices": [
+                    {
+                        "amount": "35.00",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false
+            },
+            "validatingAirlineCodes": [
+                "AF"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "129.97",
+                        "base": "64.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "12",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "TYS0BALA",
+                            "brandedFare": "LIGHT",
+                            "brandedFareLabel": "ECONOMY LIGHT",
+                            "class": "T",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            },
+                            "amenities": [
+                                {
+                                    "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SNACK",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BEVERAGE",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHOICE OF STANDARD SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MILEAGE ACCRUAL",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE ELIGIBILITY",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "3",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-11-07T19:35:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "2E",
+                                "at": "2024-11-07T21:55:00"
+                            },
+                            "carrierCode": "AF",
+                            "number": "1181",
+                            "aircraft": {
+                                "code": "223"
+                            },
+                            "operating": {
+                                "carrierCode": "AF"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "13",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "129.97",
+                "base": "64.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "129.97",
+                "additionalServices": [
+                    {
+                        "amount": "35.00",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false
+            },
+            "validatingAirlineCodes": [
+                "AF"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "129.97",
+                        "base": "64.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "13",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "TYS0BALA",
+                            "brandedFare": "LIGHT",
+                            "brandedFareLabel": "ECONOMY LIGHT",
+                            "class": "T",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            },
+                            "amenities": [
+                                {
+                                    "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SNACK",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BEVERAGE",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHOICE OF STANDARD SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MILEAGE ACCRUAL",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE ELIGIBILITY",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "4",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 8,
+            "itineraries": [
+                {
+                    "duration": "PT1H25M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-11-07T09:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "2E",
+                                "at": "2024-11-07T11:25:00"
+                            },
+                            "carrierCode": "AF",
+                            "number": "1681",
+                            "aircraft": {
+                                "code": "223"
+                            },
+                            "operating": {
+                                "carrierCode": "AF"
+                            },
+                            "duration": "PT1H25M",
+                            "id": "14",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "129.97",
+                "base": "64.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "129.97",
+                "additionalServices": [
+                    {
+                        "amount": "35.00",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false
+            },
+            "validatingAirlineCodes": [
+                "AF"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "129.97",
+                        "base": "64.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "14",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "TYS0BALA",
+                            "brandedFare": "LIGHT",
+                            "brandedFareLabel": "ECONOMY LIGHT",
+                            "class": "T",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            },
+                            "amenities": [
+                                {
+                                    "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SNACK",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BEVERAGE",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHOICE OF STANDARD SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MILEAGE ACCRUAL",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE ELIGIBILITY",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "5",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-05",
+            "lastTicketingDateTime": "2024-11-05",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H15M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-11-07T19:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-11-07T21:20:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6949",
+                            "aircraft": {
+                                "code": "320"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H15M",
+                            "id": "5",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "137.81",
+                "base": "98.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "137.81"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "137.81",
+                        "base": "98.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "5",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "DWFLX",
+                            "class": "D",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "6",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-05",
+            "lastTicketingDateTime": "2024-11-05",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-11-07T13:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-11-07T15:20:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6945",
+                            "aircraft": {
+                                "code": "320"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "8",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "137.81",
+                "base": "98.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "137.81"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "137.81",
+                        "base": "98.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "8",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "DWFLX",
+                            "class": "D",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "7",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-05",
+            "lastTicketingDateTime": "2024-11-05",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LGW",
+                                "terminal": "S",
+                                "at": "2024-11-07T14:10:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-11-07T16:30:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "6947",
+                            "aircraft": {
+                                "code": "320"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "10",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "137.81",
+                "base": "98.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "137.81"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "137.81",
+                        "base": "98.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "10",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "DWFLX",
+                            "class": "D",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "8",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-05",
+            "lastTicketingDateTime": "2024-11-05",
+            "numberOfBookableSeats": 4,
+            "itineraries": [
+                {
+                    "duration": "PT1H30M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-11-07T15:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "ORY",
+                                "terminal": "3",
+                                "at": "2024-11-07T17:45:00"
+                            },
+                            "carrierCode": "VY",
+                            "number": "8961",
+                            "aircraft": {
+                                "code": "320"
+                            },
+                            "operating": {
+                                "carrierCode": "VY"
+                            },
+                            "duration": "PT1H30M",
+                            "id": "17",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "142.98",
+                "base": "101.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "142.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VY"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "142.98",
+                        "base": "101.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "17",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "DW2FLX",
+                            "class": "D",
+                            "includedCheckedBags": {
+                                "weight": 25,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "9",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 1,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-11-07T06:20:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "2E",
+                                "at": "2024-11-07T08:40:00"
+                            },
+                            "carrierCode": "AF",
+                            "number": "1381",
+                            "aircraft": {
+                                "code": "223"
+                            },
+                            "operating": {
+                                "carrierCode": "AF"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "6",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "196.97",
+                "base": "131.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "196.97",
+                "additionalServices": [
+                    {
+                        "amount": "35.00",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false
+            },
+            "validatingAirlineCodes": [
+                "AF"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "196.97",
+                        "base": "131.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "6",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "LYS0BALA",
+                            "brandedFare": "LIGHT",
+                            "brandedFareLabel": "ECONOMY LIGHT",
+                            "class": "L",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            },
+                            "amenities": [
+                                {
+                                    "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SNACK",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BEVERAGE",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHOICE OF STANDARD SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MILEAGE ACCRUAL",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE ELIGIBILITY",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "10",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-11-07T11:30:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "2E",
+                                "at": "2024-11-07T13:50:00"
+                            },
+                            "carrierCode": "AF",
+                            "number": "1581",
+                            "aircraft": {
+                                "code": "223"
+                            },
+                            "operating": {
+                                "carrierCode": "AF"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "7",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "196.97",
+                "base": "131.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "196.97",
+                "additionalServices": [
+                    {
+                        "amount": "35.00",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false
+            },
+            "validatingAirlineCodes": [
+                "AF"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "196.97",
+                        "base": "131.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "7",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "LYS0BALA",
+                            "brandedFare": "LIGHT",
+                            "brandedFareLabel": "ECONOMY LIGHT",
+                            "class": "L",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            },
+                            "amenities": [
+                                {
+                                    "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                                    "isChargeable": true,
+                                    "amenityType": "BAGGAGE",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SNACK",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BEVERAGE",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHOICE OF STANDARD SEAT",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MILEAGE ACCRUAL",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE ELIGIBILITY",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "11",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT30M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "at": "2024-11-07T09:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "at": "2024-11-07T10:30:00"
+                            },
+                            "carrierCode": "6X",
+                            "number": "7918",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "6X"
+                            },
+                            "duration": "PT30M",
+                            "id": "15",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "235.98",
+                "base": "144.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "235.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "6X"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "235.98",
+                        "base": "144.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "15",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YCOMPARE",
+                            "brandedFare": "ECPLTE",
+                            "brandedFareLabel": "ECOPLUSTEA",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 3
+                            },
+                            "amenities": [
+                                {
+                                    "description": "VEGETARIAN MEAL",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "12",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT30M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "at": "2024-11-07T18:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "at": "2024-11-07T19:30:00"
+                            },
+                            "carrierCode": "6X",
+                            "number": "1366",
+                            "aircraft": {
+                                "code": "320"
+                            },
+                            "operating": {
+                                "carrierCode": "6X"
+                            },
+                            "duration": "PT30M",
+                            "id": "16",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "235.98",
+                "base": "144.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "235.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "6X"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "235.98",
+                        "base": "144.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "16",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YCOMPARE",
+                            "brandedFare": "ECPLTE",
+                            "brandedFareLabel": "ECOPLUSTEA",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 3
+                            },
+                            "amenities": [
+                                {
+                                    "description": "VEGETARIAN MEAL",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "13",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H10M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "at": "2024-11-07T06:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "at": "2024-11-07T08:25:00"
+                            },
+                            "carrierCode": "6X",
+                            "number": "1207",
+                            "aircraft": {
+                                "code": "320"
+                            },
+                            "operating": {
+                                "carrierCode": "6X"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "235.98",
+                "base": "144.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "235.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "6X"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "235.98",
+                        "base": "144.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "2",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YCOMPARE",
+                            "brandedFare": "ECPLTE",
+                            "brandedFareLabel": "ECOPLUSTEA",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 3
+                            },
+                            "amenities": [
+                                {
+                                    "description": "VEGETARIAN MEAL",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "14",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H10M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-11-07T12:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "1",
+                                "at": "2024-11-07T14:25:00"
+                            },
+                            "carrierCode": "6X",
+                            "number": "312",
+                            "aircraft": {
+                                "code": "319"
+                            },
+                            "operating": {
+                                "carrierCode": "6X"
+                            },
+                            "duration": "PT1H10M",
+                            "id": "3",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "235.98",
+                "base": "144.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "235.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "6X"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "235.98",
+                        "base": "144.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "3",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YCOMPARE",
+                            "brandedFare": "ECPLTE",
+                            "brandedFareLabel": "ECOPLUSTEA",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 3
+                            },
+                            "amenities": [
+                                {
+                                    "description": "VEGETARIAN MEAL",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "15",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H15M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "4",
+                                "at": "2024-11-07T09:15:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "1",
+                                "at": "2024-11-07T11:30:00"
+                            },
+                            "carrierCode": "6X",
+                            "number": "306",
+                            "aircraft": {
+                                "code": "319"
+                            },
+                            "operating": {
+                                "carrierCode": "6X"
+                            },
+                            "duration": "PT1H15M",
+                            "id": "4",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "235.98",
+                "base": "144.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "235.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "6X"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "235.98",
+                        "base": "144.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "4",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YCOMPARE",
+                            "brandedFare": "ECPLTE",
+                            "brandedFareLabel": "ECOPLUSTEA",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 3
+                            },
+                            "amenities": [
+                                {
+                                    "description": "VEGETARIAN MEAL",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "16",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H20M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "at": "2024-11-07T13:20:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "at": "2024-11-07T15:40:00"
+                            },
+                            "carrierCode": "6X",
+                            "number": "7589",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "6X"
+                            },
+                            "duration": "PT1H20M",
+                            "id": "9",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "235.98",
+                "base": "144.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "235.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "6X"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "235.98",
+                        "base": "144.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "9",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YCOMPARE",
+                            "brandedFare": "ECPLTE",
+                            "brandedFareLabel": "ECOPLUSTEA",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 3
+                            },
+                            "amenities": [
+                                {
+                                    "description": "VEGETARIAN MEAL",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "17",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT1H40M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "at": "2024-11-07T18:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "at": "2024-11-07T20:40:00"
+                            },
+                            "carrierCode": "6X",
+                            "number": "3635",
+                            "aircraft": {
+                                "code": "733"
+                            },
+                            "operating": {
+                                "carrierCode": "7S"
+                            },
+                            "duration": "PT1H40M",
+                            "id": "19",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "235.98",
+                "base": "144.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "235.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "6X"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "235.98",
+                        "base": "144.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "19",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YCOMPARE",
+                            "brandedFare": "ECPLTE",
+                            "brandedFareLabel": "ECOPLUSTEA",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 3
+                            },
+                            "amenities": [
+                                {
+                                    "description": "VEGETARIAN MEAL",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "18",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT2H",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "at": "2024-11-07T08:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "at": "2024-11-07T11:00:00"
+                            },
+                            "carrierCode": "6X",
+                            "number": "3900",
+                            "aircraft": {
+                                "code": "738"
+                            },
+                            "operating": {
+                                "carrierCode": "6X"
+                            },
+                            "duration": "PT2H",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "235.98",
+                "base": "144.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "235.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "6X"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "235.98",
+                        "base": "144.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YCOMPARE",
+                            "brandedFare": "ECPLTE",
+                            "brandedFareLabel": "ECOPLUSTEA",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 3
+                            },
+                            "amenities": [
+                                {
+                                    "description": "VEGETARIAN MEAL",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "19",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-11-07",
+            "lastTicketingDateTime": "2024-11-07",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT3H30M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "at": "2024-11-07T10:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "at": "2024-11-07T14:30:00"
+                            },
+                            "carrierCode": "6X",
+                            "number": "9462",
+                            "aircraft": {
+                                "code": "744"
+                            },
+                            "operating": {
+                                "carrierCode": "6X"
+                            },
+                            "duration": "PT3H30M",
+                            "id": "18",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "235.98",
+                "base": "144.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "235.98"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "6X"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "235.98",
+                        "base": "144.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "18",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YCOMPARE",
+                            "brandedFare": "ECPLTE",
+                            "brandedFareLabel": "ECOPLUSTEA",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 3
+                            },
+                            "amenities": [
+                                {
+                                    "description": "VEGETARIAN MEAL",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "dictionaries": {
+        "locations": {
+            "CDG": {
+                "cityCode": "PAR",
+                "countryCode": "FR"
+            },
+            "LHR": {
+                "cityCode": "LON",
+                "countryCode": "GB"
+            },
+            "ORY": {
+                "cityCode": "PAR",
+                "countryCode": "FR"
+            },
+            "LGW": {
+                "cityCode": "LON",
+                "countryCode": "GB"
+            }
+        },
+        "aircraft": {
+            "320": "AIRBUS A320",
+            "223": "AIRBUS  A220-300",
+            "733": "BOEING 737-300",
+            "744": "BOEING 747-400",
+            "319": "AIRBUS A319",
+            "738": "BOEING 737-800"
+        },
+        "currencies": {
+            "EUR": "EURO"
+        },
+        "carriers": {
+            "6X": "AMADEUS SIX",
+            "VY": "VUELING AIRLINES",
+            "AF": "AIR FRANCE",
+            "7S": "AMADEUS PDF 7S"
+        }
+    }
+}
