@@ -22,24 +22,8 @@ print(TOKEN)
 
 
 get_sheet_data = Sheet(SHEET_GET_URL,NUTRITIONIX_API_KEY)
-# sheet_data = get_sheet_data.Get_sheet_data()
-# pprint(sheet_data)
-
-sheet_data = {'prices': [{'city': 'Dublin', 'iataCode': '', 'id': 2, 'lowestPrice': 54},
-            {'city': 'Frankfurt', 'iataCode': '', 'id': 3, 'lowestPrice': 42},
-            {'city': 'Tokyo', 'iataCode': '', 'id': 4, 'lowestPrice': 485},
-            {'city': 'Hong Kong', 'iataCode': '', 'id': 5, 'lowestPrice': 551},
-            {'city': 'Istanbul', 'iataCode': '', 'id': 6, 'lowestPrice': 95},
-            {'city': 'Kuala Lumpur',
-             'iataCode': '',
-             'id': 7,
-             'lowestPrice': 414},
-            {'city': 'New York', 'iataCode': '', 'id': 8, 'lowestPrice': 240},
-            {'city': 'San Francisco',
-             'iataCode': '',
-             'id': 9,
-             'lowestPrice': 260},
-            {'city': 'paris', 'iataCode': '', 'id': 10, 'lowestPrice': 378}]}
+sheet_data = get_sheet_data.Get_sheet_data()
+pprint(sheet_data)
 
 # Get IATA code for each city
 
@@ -54,8 +38,8 @@ for city in sheet_data['prices']:
 
     Sheet_put_endpoint = 'https://api.sheety.co/c10bc28ab99077d2754b7745ddabadcd/flightDeals/prices/'+str(city['id'])
 
-    # update_sheet_data = get_sheet_data.Update_sheet_data(Sheet_put_endpoint, iana_code)
-    # print(update_sheet_data)
+    update_sheet_data = get_sheet_data.Update_sheet_data(Sheet_put_endpoint, iana_code)
+    print(update_sheet_data)
 
 
 # ############################ get flight detail from london to all locations Direct ##################
