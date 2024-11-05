@@ -9,7 +9,7 @@ AMADEUS_API_KEY = os.getenv('AMADEUS_API_KEY')
 AMADEUS_API_SECRET = os.getenv('AMADEUS_API_SECRET')
 NUTRITIONIX_API_KEY = os.getenv('NUTRITIONIX_API_KEY')
 BASE_URL = 'https://test.api.amadeus.com/'
-SHEET_GET_URL = 'https://api.sheety.co/c10bc28ab99077d2754b7745ddabadcd/flightDeals/prices'
+SHEET_GET_URL = os.getenv('SHEET_GET_URL')
 IANA_ENDPOINT = f'{BASE_URL}/v1/reference-data/locations/cities'
 
 ################################ get access token ################################ 
