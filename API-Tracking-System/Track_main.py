@@ -27,7 +27,7 @@ sunset = Check_if_night[1]
 time_now = datetime.now().hour
 
 if time_now >= sunset or time_now <= sunrise:
-    print("Yes with Jenkins")
+    print("Yes with Jenkins V2")
 
 
 
