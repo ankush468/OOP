@@ -38,4 +38,4 @@ print(cust.address.city)
 # within cust we have initilize class object add which have add the Address class attribute.
 # now we print cust which is self for class Customer cust.address(conatin whole Address class) so we need to print cust.address.city
 # now we chnaged values for cust with edit profile method we passed parameter 
-# now edit profile is calling chnage_address method we can call this method becuase cust is initilizing add which is instence of Address
+# now edit profile is calling chnage_address method we can call this method becuase cust is initilizing add which is instence of Address done
