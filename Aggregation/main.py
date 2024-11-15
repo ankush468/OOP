@@ -33,6 +33,8 @@ print(cust.address.city)
 cust.edit_profile("ankush","Gurgaon", 122001, "haryana")
 print(cust.address.city)
 
+
+# Aggregation means has a relation so cust has a relation with address
 # logic
 # we have initilize bot class (add=Address) and (cust=Customer) so self for class Addess=add and self for Customer=cust
 # within cust we have initilize class object add which have add the Address class attribute.
